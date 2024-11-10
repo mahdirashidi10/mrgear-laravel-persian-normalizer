@@ -33,6 +33,6 @@ class PersianNormalizerServiceProvider extends ServiceProvider
         ], 'config');
 
         // Register the Middleware with a custom alias name
-        $this->app['router']->aliasMiddleware('persian-normalizer', PersianNormalizerMiddleware::class);
+        $this->app['router']->aliasMiddleware('mrgear-persian-normalizer', PersianNormalizerMiddleware::class);
     }
 }
