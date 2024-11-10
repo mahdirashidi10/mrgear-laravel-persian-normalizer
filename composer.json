@@ -20,7 +20,7 @@
                 "MRGear\\PersianNormalizer\\PersianNormalizerServiceProvider"
             ],
             "aliases": {
-                "Normalizer": "MRGear\\PersianNormalizer\\Normalizer"
+                "PersianNormalizer": "MRGear\\PersianNormalizer\\Normalizer"
             }
         }
     }
