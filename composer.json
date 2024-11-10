@@ -22,7 +22,7 @@
                 "MRGear\\PersianNormalizer\\PersianNormalizerServiceProvider"
             ],
             "aliases": {
-                "PersianNormalizer": "MRGear\\PersianNormalizer\\Facade"
+                "PersianNormalizer": "MRGear\\PersianNormalizer\\Facade\\Normalizer"
             }
         }
     }
