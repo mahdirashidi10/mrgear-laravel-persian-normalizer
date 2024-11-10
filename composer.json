@@ -18,7 +18,10 @@
         "laravel": {
             "providers": [
                 "MRGear\\PersianNormalizer\\PersianNormalizerServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "Normalizer": "MRGear\\PersianNormalizer\\Normalizer"
+            }
         }
     }
 }
