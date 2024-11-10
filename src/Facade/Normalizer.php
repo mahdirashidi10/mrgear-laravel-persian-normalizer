@@ -1,6 +1,6 @@
 <?php
 
-namespace MRGear\PersianNormalizer;
+namespace MRGear\PersianNormalizer\Facade;
 
 use Illuminate\Support\Facades\Facade;
 

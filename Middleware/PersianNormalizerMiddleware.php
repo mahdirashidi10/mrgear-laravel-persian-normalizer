@@ -4,8 +4,7 @@ namespace MRGear\PersianNormalizer\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
-use MRGear\PersianNormalizer\Normalizer;
-use Illuminate\Support\Facades\Config;
+use MRGear\PersianNormalizer\Facade\Normalizer;
 
 class PersianNormalizerMiddleware
 {
