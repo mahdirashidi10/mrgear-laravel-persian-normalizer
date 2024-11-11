@@ -14,6 +14,10 @@ class PersianNormalizerServiceProvider extends ServiceProvider
      */
     public function register()
     {
+        $this->mergeConfigFrom(
+            __DIR__.'/../config/mrgear-persian-normalizer.php',
+            'mrgear-persian-normalizer'
+        );
         // Bind the Normalizer class to the container with the name 'persian-normalizer'
         $this->app->singleton('mrgear-persian-normalizer', function ($app) {
             return new NormalizerManager();
