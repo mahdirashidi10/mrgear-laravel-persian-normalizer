@@ -2,8 +2,15 @@
     "name": "mrgear/laravel-persian-normalizer",
     "description": "A Laravel package for Persian text normalization",
     "type": "library",
-    "keywords": ["laravel", "normalizer" ,"persian"],
+    "keywords": ["mrgear","laravel","persian", "normalizer" ],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Mahdi Rashidi",
+            "email": "mahdirashidi.developer@gmail.com",
+            "role": "Developer"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "MRGear\\PersianNormalizer\\": "src/"
